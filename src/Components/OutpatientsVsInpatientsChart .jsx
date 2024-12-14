@@ -42,7 +42,7 @@ const OutpatientsVsInpatientsChart = () => {
   };
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-4  ">
+    <div className="bg-white shadow-lg rounded-lg p-4 w-[1050px] h-[500px]  ">
       <Bar data={data} options={options} />
     </div>
   );
