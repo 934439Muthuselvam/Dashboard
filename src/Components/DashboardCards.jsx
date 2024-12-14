@@ -1,16 +1,16 @@
 import React from 'react';
 
-
-import { FaUserFriends } from 'react-icons/fa';
+import { MdAccessTime } from "react-icons/md";
+import { FaMoneyCheckAlt, FaNotesMedical, FaUserFriends, FaUsers } from 'react-icons/fa';
 import Card from './CountUp';
 
 const DashboardCards = () => {
   const cards = [
     { title: "Total Patients", value: "50001", Icon: FaUserFriends   },
-    { title: "Total Patients Admitted", value: "34863", Icon:FaUserFriends   },
-    { title: "Avg Treat. Costs", value: "$8742", Icon:FaUserFriends  },
-    { title: "Avg ER Waiting Time", value: "53 min", Icon:FaUserFriends },
-    { title: "Available Staff", value: "596", Icon:FaUserFriends   },
+    { title: "Total Patients Admitted", value: "34863", Icon:FaNotesMedical  },
+    { title: "Avg Treat. Costs", value: "$8742", Icon:FaMoneyCheckAlt  },
+    { title: "Avg ER Waiting Time", value: "53 min", Icon:MdAccessTime },
+    { title: "Available Staff", value: "596", Icon:FaUsers   },
   ];
 
   return (

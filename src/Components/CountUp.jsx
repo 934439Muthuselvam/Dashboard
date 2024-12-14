@@ -4,10 +4,10 @@ import CountUp from 'react-countup'; // Import CountUp
 
 const Card = ({ title, value, Icon }) => {
   return (
-    <div className="bg-purple-300 shadow-lg rounded-lg p-4 flex items-center gap-4">
+    <div className="bg-purple-100 shadow-lg rounded-lg p-4 flex items-center gap-4">
       {Icon && (
         <IconContext.Provider value={{ size: "2em", className: "text-blue-500" }}>
-          <div className="bg-blue-100 p-3 rounded-full">
+          <div className="bg-white p-3 rounded-full">
             <Icon />
           </div>
         </IconContext.Provider>
