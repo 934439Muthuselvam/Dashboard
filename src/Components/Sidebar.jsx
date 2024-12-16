@@ -7,11 +7,11 @@ import { IoSettingsOutline } from "react-icons/io5";
 
 const Sidebar = () => {
   return (
-    <div className="h-screen py-5 w-20 bg-blue-500 gap-10 text-white">
+    <div className="h-screen py-5 w-20 bg-blue-500  gap-10 text-white">
       {/* Sidebar Top Image */}
       <div className="flex justify-center">
         <img 
-          src="src\assets\Screenshot_2024-12-15_031221-removebg-preview.png" 
+          src="images\Screenshot_2024-12-15_031221-removebg-preview.png" 
           alt="Logo" 
           className="rounded-full w-12 h-12 mb-10"
         />
